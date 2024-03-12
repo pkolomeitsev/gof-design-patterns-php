@@ -1,4 +1,4 @@
-# (GoF) Design Patterns examples on PHP
+# (GoF) Design Patterns examples in PHP
 This is mini workshop to build & test Design Patterns examples 
 
 Install dependencies
