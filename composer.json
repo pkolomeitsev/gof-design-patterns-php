@@ -1,7 +1,8 @@
 {
     "name": "gof/design-patterns",
+    "description": "GoF Design Patterns library",
     "type": "library",
-    "license": "Free, open source",
+    "license": "GPL-2.0-only",
     "autoload": {
         "psr-4": {
             "Gof\\DesignPatterns\\": "src/"
