@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /var/www/gof-design-patterns-php/src/Creational</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../_css/bootstrap.min.css?v=10.1.11" rel="stylesheet" type="text/css">
+  <link href="../_css/nv.d3.min.css?v=10.1.11" rel="stylesheet" type="text/css">
+  <link href="../_css/style.css?v=10.1.11" rel="stylesheet" type="text/css">
+  <link href="../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../index.html">/var/www/gof-design-patterns-php/src</a></li>
+         <li class="breadcrumb-item"><a href="index.html">Creational</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="AbstractFactory/Wall.php.html#5">Gof\DesignPatterns\Creational\AbstractFactory\Wall</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Builder/Wall.php.html#5">Gof\DesignPatterns\Creational\Builder\Wall</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FactoryMethod/MazeFactory.php.html#5">Gof\DesignPatterns\Creational\FactoryMethod\MazeFactory</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FactoryMethod/Wall.php.html#5">Gof\DesignPatterns\Creational\FactoryMethod\Wall</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Prototype/RunExample.php.html#9">Gof\DesignPatterns\Creational\Prototype\RunExample</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Prototype/Wall.php.html#5">Gof\DesignPatterns\Creational\Prototype\Wall</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AbstractFactory/Door.php.html#5">Gof\DesignPatterns\Creational\AbstractFactory\Door</a></td><td class="text-right">33%</td></tr>
+       <tr><td><a href="Builder/Door.php.html#5">Gof\DesignPatterns\Creational\Builder\Door</a></td><td class="text-right">33%</td></tr>
+       <tr><td><a href="FactoryMethod/Door.php.html#5">Gof\DesignPatterns\Creational\FactoryMethod\Door</a></td><td class="text-right">33%</td></tr>
+       <tr><td><a href="Prototype/MazeFactory.php.html#5">Gof\DesignPatterns\Creational\Prototype\MazeFactory</a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="Builder/Room.php.html#7">Gof\DesignPatterns\Creational\Builder\Room</a></td><td class="text-right">60%</td></tr>
+       <tr><td><a href="Prototype/Door.php.html#5">Gof\DesignPatterns\Creational\Prototype\Door</a></td><td class="text-right">60%</td></tr>
+       <tr><td><a href="Singleton/Singleton.php.html#5">Gof\DesignPatterns\Creational\Singleton\Singleton</a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="Builder/MazeFactory.php.html#5">Gof\DesignPatterns\Creational\Builder\MazeFactory</a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="AbstractFactory/Room.php.html#7">Gof\DesignPatterns\Creational\AbstractFactory\Room</a></td><td class="text-right">80%</td></tr>
+       <tr><td><a href="FactoryMethod/Room.php.html#7">Gof\DesignPatterns\Creational\FactoryMethod\Room</a></td><td class="text-right">80%</td></tr>
+       <tr><td><a href="Prototype/Room.php.html#7">Gof\DesignPatterns\Creational\Prototype\Room</a></td><td class="text-right">80%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="AbstractFactory/Door.php.html#16"><abbr title="Gof\DesignPatterns\Creational\AbstractFactory\Door::enter">enter</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AbstractFactory/Door.php.html#20"><abbr title="Gof\DesignPatterns\Creational\AbstractFactory\Door::otherSideFrom">otherSideFrom</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AbstractFactory/Room.php.html#16"><abbr title="Gof\DesignPatterns\Creational\AbstractFactory\Room::getSide">getSide</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AbstractFactory/Wall.php.html#7"><abbr title="Gof\DesignPatterns\Creational\AbstractFactory\Wall::enter">enter</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Builder/Door.php.html#16"><abbr title="Gof\DesignPatterns\Creational\Builder\Door::enter">enter</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Builder/Door.php.html#20"><abbr title="Gof\DesignPatterns\Creational\Builder\Door::otherSideFrom">otherSideFrom</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Builder/MazeFactory.php.html#11"><abbr title="Gof\DesignPatterns\Creational\Builder\MazeFactory::makeWall">makeWall</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Builder/Room.php.html#16"><abbr title="Gof\DesignPatterns\Creational\Builder\Room::getSide">getSide</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Builder/Room.php.html#20"><abbr title="Gof\DesignPatterns\Creational\Builder\Room::setSide">setSide</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Builder/Wall.php.html#7"><abbr title="Gof\DesignPatterns\Creational\Builder\Wall::enter">enter</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FactoryMethod/Door.php.html#16"><abbr title="Gof\DesignPatterns\Creational\FactoryMethod\Door::enter">enter</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FactoryMethod/Door.php.html#20"><abbr title="Gof\DesignPatterns\Creational\FactoryMethod\Door::otherSideFrom">otherSideFrom</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FactoryMethod/MazeFactory.php.html#7"><abbr title="Gof\DesignPatterns\Creational\FactoryMethod\MazeFactory::makeMaze">makeMaze</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FactoryMethod/MazeFactory.php.html#11"><abbr title="Gof\DesignPatterns\Creational\FactoryMethod\MazeFactory::makeWall">makeWall</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FactoryMethod/MazeFactory.php.html#15"><abbr title="Gof\DesignPatterns\Creational\FactoryMethod\MazeFactory::makeDoor">makeDoor</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FactoryMethod/MazeFactory.php.html#19"><abbr title="Gof\DesignPatterns\Creational\FactoryMethod\MazeFactory::makeRoom">makeRoom</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FactoryMethod/Room.php.html#16"><abbr title="Gof\DesignPatterns\Creational\FactoryMethod\Room::getSide">getSide</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FactoryMethod/Wall.php.html#7"><abbr title="Gof\DesignPatterns\Creational\FactoryMethod\Wall::enter">enter</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Prototype/Door.php.html#16"><abbr title="Gof\DesignPatterns\Creational\Prototype\Door::enter">enter</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Prototype/Door.php.html#20"><abbr title="Gof\DesignPatterns\Creational\Prototype\Door::otherSideFrom">otherSideFrom</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Prototype/MazeFactory.php.html#11"><abbr title="Gof\DesignPatterns\Creational\Prototype\MazeFactory::makeWall">makeWall</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Prototype/MazeFactory.php.html#15"><abbr title="Gof\DesignPatterns\Creational\Prototype\MazeFactory::makeDoor">makeDoor</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Prototype/Room.php.html#16"><abbr title="Gof\DesignPatterns\Creational\Prototype\Room::getSide">getSide</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Prototype/RunExample.php.html#13"><abbr title="Gof\DesignPatterns\Creational\Prototype\RunExample::run">run</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Prototype/Wall.php.html#7"><abbr title="Gof\DesignPatterns\Creational\Prototype\Wall::enter">enter</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Singleton/Singleton.php.html#29"><abbr title="Gof\DesignPatterns\Creational\Singleton\Singleton::__clone">__clone</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Singleton/Singleton.php.html#36"><abbr title="Gof\DesignPatterns\Creational\Singleton\Singleton::__wakeup">__wakeup</abbr></a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 10.1.11</a> using <a href="https://www.php.net/" target="_top">PHP 8.1.2-1ubuntu2.14</a> and <a href="https://phpunit.de/">PHPUnit 10.5.10</a> at Tue Mar 12 11:53:52 UTC 2024.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../_js/jquery.min.js?v=10.1.11" type="text/javascript"></script>
+  <script src="../_js/d3.min.js?v=10.1.11" type="text/javascript"></script>
+  <script src="../_js/nv.d3.min.js?v=10.1.11" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([6,0,0,0,3,0,1,3,1,3,0,19], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([27,0,0,0,0,0,0,0,0,0,0,64], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[33.33333333333333,3,"<a href=\"AbstractFactory\/Door.php.html#5\">Gof\\DesignPatterns\\Creational\\AbstractFactory\\Door<\/a>"],[100,0,"<a href=\"AbstractFactory\/MapSite.php.html#5\">Gof\\DesignPatterns\\Creational\\AbstractFactory\\MapSite<\/a>"],[100,2,"<a href=\"AbstractFactory\/Maze.php.html#5\">Gof\\DesignPatterns\\Creational\\AbstractFactory\\Maze<\/a>"],[100,4,"<a href=\"AbstractFactory\/MazeFactory.php.html#5\">Gof\\DesignPatterns\\Creational\\AbstractFactory\\MazeFactory<\/a>"],[100,1,"<a href=\"AbstractFactory\/MazeGame.php.html#7\">Gof\\DesignPatterns\\Creational\\AbstractFactory\\MazeGame<\/a>"],[80,5,"<a href=\"AbstractFactory\/Room.php.html#7\">Gof\\DesignPatterns\\Creational\\AbstractFactory\\Room<\/a>"],[100,1,"<a href=\"AbstractFactory\/RunExample.php.html#9\">Gof\\DesignPatterns\\Creational\\AbstractFactory\\RunExample<\/a>"],[0,1,"<a href=\"AbstractFactory\/Wall.php.html#5\">Gof\\DesignPatterns\\Creational\\AbstractFactory\\Wall<\/a>"],[33.33333333333333,3,"<a href=\"Builder\/Door.php.html#5\">Gof\\DesignPatterns\\Creational\\Builder\\Door<\/a>"],[100,0,"<a href=\"Builder\/MapSite.php.html#5\">Gof\\DesignPatterns\\Creational\\Builder\\MapSite<\/a>"],[100,2,"<a href=\"Builder\/Maze.php.html#5\">Gof\\DesignPatterns\\Creational\\Builder\\Maze<\/a>"],[100,5,"<a href=\"Builder\/MazeBuilder.php.html#5\">Gof\\DesignPatterns\\Creational\\Builder\\MazeBuilder<\/a>"],[75,4,"<a href=\"Builder\/MazeFactory.php.html#5\">Gof\\DesignPatterns\\Creational\\Builder\\MazeFactory<\/a>"],[100,1,"<a href=\"Builder\/MazeGame.php.html#7\">Gof\\DesignPatterns\\Creational\\Builder\\MazeGame<\/a>"],[60,5,"<a href=\"Builder\/Room.php.html#7\">Gof\\DesignPatterns\\Creational\\Builder\\Room<\/a>"],[100,1,"<a href=\"Builder\/RunExample.php.html#12\">Gof\\DesignPatterns\\Creational\\Builder\\RunExample<\/a>"],[0,1,"<a href=\"Builder\/Wall.php.html#5\">Gof\\DesignPatterns\\Creational\\Builder\\Wall<\/a>"],[33.33333333333333,3,"<a href=\"FactoryMethod\/Door.php.html#5\">Gof\\DesignPatterns\\Creational\\FactoryMethod\\Door<\/a>"],[100,0,"<a href=\"FactoryMethod\/MapSite.php.html#5\">Gof\\DesignPatterns\\Creational\\FactoryMethod\\MapSite<\/a>"],[100,2,"<a href=\"FactoryMethod\/Maze.php.html#5\">Gof\\DesignPatterns\\Creational\\FactoryMethod\\Maze<\/a>"],[0,4,"<a href=\"FactoryMethod\/MazeFactory.php.html#5\">Gof\\DesignPatterns\\Creational\\FactoryMethod\\MazeFactory<\/a>"],[100,5,"<a href=\"FactoryMethod\/MazeGame.php.html#7\">Gof\\DesignPatterns\\Creational\\FactoryMethod\\MazeGame<\/a>"],[80,5,"<a href=\"FactoryMethod\/Room.php.html#7\">Gof\\DesignPatterns\\Creational\\FactoryMethod\\Room<\/a>"],[100,1,"<a href=\"FactoryMethod\/RunExample.php.html#9\">Gof\\DesignPatterns\\Creational\\FactoryMethod\\RunExample<\/a>"],[0,1,"<a href=\"FactoryMethod\/Wall.php.html#5\">Gof\\DesignPatterns\\Creational\\FactoryMethod\\Wall<\/a>"],[60,4,"<a href=\"Prototype\/Door.php.html#5\">Gof\\DesignPatterns\\Creational\\Prototype\\Door<\/a>"],[100,0,"<a href=\"Prototype\/MapSite.php.html#5\">Gof\\DesignPatterns\\Creational\\Prototype\\MapSite<\/a>"],[100,2,"<a href=\"Prototype\/Maze.php.html#5\">Gof\\DesignPatterns\\Creational\\Prototype\\Maze<\/a>"],[50,4,"<a href=\"Prototype\/MazeFactory.php.html#5\">Gof\\DesignPatterns\\Creational\\Prototype\\MazeFactory<\/a>"],[100,1,"<a href=\"Prototype\/MazeGame.php.html#7\">Gof\\DesignPatterns\\Creational\\Prototype\\MazeGame<\/a>"],[100,3,"<a href=\"Prototype\/MazePrototypeFactory.php.html#5\">Gof\\DesignPatterns\\Creational\\Prototype\\MazePrototypeFactory<\/a>"],[80,5,"<a href=\"Prototype\/Room.php.html#7\">Gof\\DesignPatterns\\Creational\\Prototype\\Room<\/a>"],[0,1,"<a href=\"Prototype\/RunExample.php.html#9\">Gof\\DesignPatterns\\Creational\\Prototype\\RunExample<\/a>"],[0,1,"<a href=\"Prototype\/Wall.php.html#5\">Gof\\DesignPatterns\\Creational\\Prototype\\Wall<\/a>"],[100,1,"<a href=\"Singleton\/RunExample.php.html#8\">Gof\\DesignPatterns\\Creational\\Singleton\\RunExample<\/a>"],[66.66666666666666,5,"<a href=\"Singleton\/Singleton.php.html#5\">Gof\\DesignPatterns\\Creational\\Singleton\\Singleton<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[100,1,"<a href=\"AbstractFactory\/Door.php.html#9\">Gof\\DesignPatterns\\Creational\\AbstractFactory\\Door::__construct<\/a>"],[0,1,"<a href=\"AbstractFactory\/Door.php.html#16\">Gof\\DesignPatterns\\Creational\\AbstractFactory\\Door::enter<\/a>"],[0,1,"<a href=\"AbstractFactory\/Door.php.html#20\">Gof\\DesignPatterns\\Creational\\AbstractFactory\\Door::otherSideFrom<\/a>"],[100,0,"<a href=\"AbstractFactory\/MapSite.php.html#6\">Gof\\DesignPatterns\\Creational\\AbstractFactory\\MapSite::enter<\/a>"],[100,1,"<a href=\"AbstractFactory\/Maze.php.html#8\">Gof\\DesignPatterns\\Creational\\AbstractFactory\\Maze::addRoom<\/a>"],[100,1,"<a href=\"AbstractFactory\/Maze.php.html#12\">Gof\\DesignPatterns\\Creational\\AbstractFactory\\Maze::getRoomByNum<\/a>"],[100,1,"<a href=\"AbstractFactory\/MazeFactory.php.html#7\">Gof\\DesignPatterns\\Creational\\AbstractFactory\\MazeFactory::makeMaze<\/a>"],[100,1,"<a href=\"AbstractFactory\/MazeFactory.php.html#11\">Gof\\DesignPatterns\\Creational\\AbstractFactory\\MazeFactory::makeWall<\/a>"],[100,1,"<a href=\"AbstractFactory\/MazeFactory.php.html#15\">Gof\\DesignPatterns\\Creational\\AbstractFactory\\MazeFactory::makeDoor<\/a>"],[100,1,"<a href=\"AbstractFactory\/MazeFactory.php.html#19\">Gof\\DesignPatterns\\Creational\\AbstractFactory\\MazeFactory::makeRoom<\/a>"],[100,1,"<a href=\"AbstractFactory\/MazeGame.php.html#9\">Gof\\DesignPatterns\\Creational\\AbstractFactory\\MazeGame::createMaze<\/a>"],[100,1,"<a href=\"AbstractFactory\/Room.php.html#9\">Gof\\DesignPatterns\\Creational\\AbstractFactory\\Room::__construct<\/a>"],[0,1,"<a href=\"AbstractFactory\/Room.php.html#16\">Gof\\DesignPatterns\\Creational\\AbstractFactory\\Room::getSide<\/a>"],[100,1,"<a href=\"AbstractFactory\/Room.php.html#20\">Gof\\DesignPatterns\\Creational\\AbstractFactory\\Room::setSide<\/a>"],[100,1,"<a href=\"AbstractFactory\/Room.php.html#24\">Gof\\DesignPatterns\\Creational\\AbstractFactory\\Room::enter<\/a>"],[100,1,"<a href=\"AbstractFactory\/Room.php.html#28\">Gof\\DesignPatterns\\Creational\\AbstractFactory\\Room::getRoomNum<\/a>"],[100,1,"<a href=\"AbstractFactory\/RunExample.php.html#13\">Gof\\DesignPatterns\\Creational\\AbstractFactory\\RunExample::run<\/a>"],[0,1,"<a href=\"AbstractFactory\/Wall.php.html#7\">Gof\\DesignPatterns\\Creational\\AbstractFactory\\Wall::enter<\/a>"],[100,1,"<a href=\"Builder\/Door.php.html#9\">Gof\\DesignPatterns\\Creational\\Builder\\Door::__construct<\/a>"],[0,1,"<a href=\"Builder\/Door.php.html#16\">Gof\\DesignPatterns\\Creational\\Builder\\Door::enter<\/a>"],[0,1,"<a href=\"Builder\/Door.php.html#20\">Gof\\DesignPatterns\\Creational\\Builder\\Door::otherSideFrom<\/a>"],[100,0,"<a href=\"Builder\/MapSite.php.html#6\">Gof\\DesignPatterns\\Creational\\Builder\\MapSite::enter<\/a>"],[100,1,"<a href=\"Builder\/Maze.php.html#8\">Gof\\DesignPatterns\\Creational\\Builder\\Maze::addRoom<\/a>"],[100,1,"<a href=\"Builder\/Maze.php.html#12\">Gof\\DesignPatterns\\Creational\\Builder\\Maze::getRoomByNum<\/a>"],[100,1,"<a href=\"Builder\/MazeBuilder.php.html#9\">Gof\\DesignPatterns\\Creational\\Builder\\MazeBuilder::__construct<\/a>"],[100,1,"<a href=\"Builder\/MazeBuilder.php.html#15\">Gof\\DesignPatterns\\Creational\\Builder\\MazeBuilder::buildMaze<\/a>"],[100,1,"<a href=\"Builder\/MazeBuilder.php.html#19\">Gof\\DesignPatterns\\Creational\\Builder\\MazeBuilder::buildRoom<\/a>"],[100,1,"<a href=\"Builder\/MazeBuilder.php.html#23\">Gof\\DesignPatterns\\Creational\\Builder\\MazeBuilder::buildDoor<\/a>"],[100,1,"<a href=\"Builder\/MazeBuilder.php.html#29\">Gof\\DesignPatterns\\Creational\\Builder\\MazeBuilder::getMaze<\/a>"],[100,1,"<a href=\"Builder\/MazeFactory.php.html#7\">Gof\\DesignPatterns\\Creational\\Builder\\MazeFactory::makeMaze<\/a>"],[0,1,"<a href=\"Builder\/MazeFactory.php.html#11\">Gof\\DesignPatterns\\Creational\\Builder\\MazeFactory::makeWall<\/a>"],[100,1,"<a href=\"Builder\/MazeFactory.php.html#15\">Gof\\DesignPatterns\\Creational\\Builder\\MazeFactory::makeDoor<\/a>"],[100,1,"<a href=\"Builder\/MazeFactory.php.html#19\">Gof\\DesignPatterns\\Creational\\Builder\\MazeFactory::makeRoom<\/a>"],[100,1,"<a href=\"Builder\/MazeGame.php.html#9\">Gof\\DesignPatterns\\Creational\\Builder\\MazeGame::createMaze<\/a>"],[100,1,"<a href=\"Builder\/Room.php.html#9\">Gof\\DesignPatterns\\Creational\\Builder\\Room::__construct<\/a>"],[0,1,"<a href=\"Builder\/Room.php.html#16\">Gof\\DesignPatterns\\Creational\\Builder\\Room::getSide<\/a>"],[0,1,"<a href=\"Builder\/Room.php.html#20\">Gof\\DesignPatterns\\Creational\\Builder\\Room::setSide<\/a>"],[100,1,"<a href=\"Builder\/Room.php.html#24\">Gof\\DesignPatterns\\Creational\\Builder\\Room::enter<\/a>"],[100,1,"<a href=\"Builder\/Room.php.html#28\">Gof\\DesignPatterns\\Creational\\Builder\\Room::getRoomNum<\/a>"],[100,1,"<a href=\"Builder\/RunExample.php.html#16\">Gof\\DesignPatterns\\Creational\\Builder\\RunExample::run<\/a>"],[0,1,"<a href=\"Builder\/Wall.php.html#7\">Gof\\DesignPatterns\\Creational\\Builder\\Wall::enter<\/a>"],[100,1,"<a href=\"FactoryMethod\/Door.php.html#9\">Gof\\DesignPatterns\\Creational\\FactoryMethod\\Door::__construct<\/a>"],[0,1,"<a href=\"FactoryMethod\/Door.php.html#16\">Gof\\DesignPatterns\\Creational\\FactoryMethod\\Door::enter<\/a>"],[0,1,"<a href=\"FactoryMethod\/Door.php.html#20\">Gof\\DesignPatterns\\Creational\\FactoryMethod\\Door::otherSideFrom<\/a>"],[100,0,"<a href=\"FactoryMethod\/MapSite.php.html#6\">Gof\\DesignPatterns\\Creational\\FactoryMethod\\MapSite::enter<\/a>"],[100,1,"<a href=\"FactoryMethod\/Maze.php.html#8\">Gof\\DesignPatterns\\Creational\\FactoryMethod\\Maze::addRoom<\/a>"],[100,1,"<a href=\"FactoryMethod\/Maze.php.html#12\">Gof\\DesignPatterns\\Creational\\FactoryMethod\\Maze::getRoomByNum<\/a>"],[0,1,"<a href=\"FactoryMethod\/MazeFactory.php.html#7\">Gof\\DesignPatterns\\Creational\\FactoryMethod\\MazeFactory::makeMaze<\/a>"],[0,1,"<a href=\"FactoryMethod\/MazeFactory.php.html#11\">Gof\\DesignPatterns\\Creational\\FactoryMethod\\MazeFactory::makeWall<\/a>"],[0,1,"<a href=\"FactoryMethod\/MazeFactory.php.html#15\">Gof\\DesignPatterns\\Creational\\FactoryMethod\\MazeFactory::makeDoor<\/a>"],[0,1,"<a href=\"FactoryMethod\/MazeFactory.php.html#19\">Gof\\DesignPatterns\\Creational\\FactoryMethod\\MazeFactory::makeRoom<\/a>"],[100,1,"<a href=\"FactoryMethod\/MazeGame.php.html#9\">Gof\\DesignPatterns\\Creational\\FactoryMethod\\MazeGame::createMaze<\/a>"],[100,1,"<a href=\"FactoryMethod\/MazeGame.php.html#31\">Gof\\DesignPatterns\\Creational\\FactoryMethod\\MazeGame::makeMaze<\/a>"],[100,1,"<a href=\"FactoryMethod\/MazeGame.php.html#35\">Gof\\DesignPatterns\\Creational\\FactoryMethod\\MazeGame::makeRoom<\/a>"],[100,1,"<a href=\"FactoryMethod\/MazeGame.php.html#39\">Gof\\DesignPatterns\\Creational\\FactoryMethod\\MazeGame::makeWall<\/a>"],[100,1,"<a href=\"FactoryMethod\/MazeGame.php.html#43\">Gof\\DesignPatterns\\Creational\\FactoryMethod\\MazeGame::makeDoor<\/a>"],[100,1,"<a href=\"FactoryMethod\/Room.php.html#9\">Gof\\DesignPatterns\\Creational\\FactoryMethod\\Room::__construct<\/a>"],[0,1,"<a href=\"FactoryMethod\/Room.php.html#16\">Gof\\DesignPatterns\\Creational\\FactoryMethod\\Room::getSide<\/a>"],[100,1,"<a href=\"FactoryMethod\/Room.php.html#20\">Gof\\DesignPatterns\\Creational\\FactoryMethod\\Room::setSide<\/a>"],[100,1,"<a href=\"FactoryMethod\/Room.php.html#24\">Gof\\DesignPatterns\\Creational\\FactoryMethod\\Room::enter<\/a>"],[100,1,"<a href=\"FactoryMethod\/Room.php.html#28\">Gof\\DesignPatterns\\Creational\\FactoryMethod\\Room::getRoomNum<\/a>"],[100,1,"<a href=\"FactoryMethod\/RunExample.php.html#13\">Gof\\DesignPatterns\\Creational\\FactoryMethod\\RunExample::run<\/a>"],[0,1,"<a href=\"FactoryMethod\/Wall.php.html#7\">Gof\\DesignPatterns\\Creational\\FactoryMethod\\Wall::enter<\/a>"],[100,1,"<a href=\"Prototype\/Door.php.html#9\">Gof\\DesignPatterns\\Creational\\Prototype\\Door::__construct<\/a>"],[0,1,"<a href=\"Prototype\/Door.php.html#16\">Gof\\DesignPatterns\\Creational\\Prototype\\Door::enter<\/a>"],[0,1,"<a href=\"Prototype\/Door.php.html#20\">Gof\\DesignPatterns\\Creational\\Prototype\\Door::otherSideFrom<\/a>"],[100,1,"<a href=\"Prototype\/Door.php.html#24\">Gof\\DesignPatterns\\Creational\\Prototype\\Door::initialyze<\/a>"],[100,0,"<a href=\"Prototype\/MapSite.php.html#6\">Gof\\DesignPatterns\\Creational\\Prototype\\MapSite::enter<\/a>"],[100,1,"<a href=\"Prototype\/Maze.php.html#8\">Gof\\DesignPatterns\\Creational\\Prototype\\Maze::addRoom<\/a>"],[100,1,"<a href=\"Prototype\/Maze.php.html#12\">Gof\\DesignPatterns\\Creational\\Prototype\\Maze::getRoomByNum<\/a>"],[100,1,"<a href=\"Prototype\/MazeFactory.php.html#7\">Gof\\DesignPatterns\\Creational\\Prototype\\MazeFactory::makeMaze<\/a>"],[0,1,"<a href=\"Prototype\/MazeFactory.php.html#11\">Gof\\DesignPatterns\\Creational\\Prototype\\MazeFactory::makeWall<\/a>"],[0,1,"<a href=\"Prototype\/MazeFactory.php.html#15\">Gof\\DesignPatterns\\Creational\\Prototype\\MazeFactory::makeDoor<\/a>"],[100,1,"<a href=\"Prototype\/MazeFactory.php.html#19\">Gof\\DesignPatterns\\Creational\\Prototype\\MazeFactory::makeRoom<\/a>"],[100,1,"<a href=\"Prototype\/MazeGame.php.html#9\">Gof\\DesignPatterns\\Creational\\Prototype\\MazeGame::createMaze<\/a>"],[100,1,"<a href=\"Prototype\/MazePrototypeFactory.php.html#7\">Gof\\DesignPatterns\\Creational\\Prototype\\MazePrototypeFactory::__construct<\/a>"],[100,1,"<a href=\"Prototype\/MazePrototypeFactory.php.html#16\">Gof\\DesignPatterns\\Creational\\Prototype\\MazePrototypeFactory::makeWall<\/a>"],[100,1,"<a href=\"Prototype\/MazePrototypeFactory.php.html#20\">Gof\\DesignPatterns\\Creational\\Prototype\\MazePrototypeFactory::makeDoor<\/a>"],[100,1,"<a href=\"Prototype\/Room.php.html#9\">Gof\\DesignPatterns\\Creational\\Prototype\\Room::__construct<\/a>"],[0,1,"<a href=\"Prototype\/Room.php.html#16\">Gof\\DesignPatterns\\Creational\\Prototype\\Room::getSide<\/a>"],[100,1,"<a href=\"Prototype\/Room.php.html#20\">Gof\\DesignPatterns\\Creational\\Prototype\\Room::setSide<\/a>"],[100,1,"<a href=\"Prototype\/Room.php.html#24\">Gof\\DesignPatterns\\Creational\\Prototype\\Room::enter<\/a>"],[100,1,"<a href=\"Prototype\/Room.php.html#28\">Gof\\DesignPatterns\\Creational\\Prototype\\Room::getRoomNum<\/a>"],[0,1,"<a href=\"Prototype\/RunExample.php.html#13\">Gof\\DesignPatterns\\Creational\\Prototype\\RunExample::run<\/a>"],[0,1,"<a href=\"Prototype\/Wall.php.html#7\">Gof\\DesignPatterns\\Creational\\Prototype\\Wall::enter<\/a>"],[100,1,"<a href=\"Singleton\/RunExample.php.html#12\">Gof\\DesignPatterns\\Creational\\Singleton\\RunExample::run<\/a>"],[100,1,"<a href=\"Singleton\/Singleton.php.html#9\">Gof\\DesignPatterns\\Creational\\Singleton\\Singleton::getInstance<\/a>"],[100,1,"<a href=\"Singleton\/Singleton.php.html#14\">Gof\\DesignPatterns\\Creational\\Singleton\\Singleton::notify<\/a>"],[100,1,"<a href=\"Singleton\/Singleton.php.html#22\">Gof\\DesignPatterns\\Creational\\Singleton\\Singleton::__construct<\/a>"],[0,1,"<a href=\"Singleton\/Singleton.php.html#29\">Gof\\DesignPatterns\\Creational\\Singleton\\Singleton::__clone<\/a>"],[0,1,"<a href=\"Singleton\/Singleton.php.html#36\">Gof\\DesignPatterns\\Creational\\Singleton\\Singleton::__wakeup<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

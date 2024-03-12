@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /var/www/gof-design-patterns-php/src/Structural</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../_css/bootstrap.min.css?v=10.1.11" rel="stylesheet" type="text/css">
+  <link href="../_css/nv.d3.min.css?v=10.1.11" rel="stylesheet" type="text/css">
+  <link href="../_css/style.css?v=10.1.11" rel="stylesheet" type="text/css">
+  <link href="../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../index.html">/var/www/gof-design-patterns-php/src</a></li>
+         <li class="breadcrumb-item"><a href="index.html">Structural</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Composite/Component.php.html#5">Gof\DesignPatterns\Structural\Composite\Component</a></td><td class="text-right">20%</td></tr>
+       <tr><td><a href="Composite/Composite.php.html#5">Gof\DesignPatterns\Structural\Composite\Composite</a></td><td class="text-right">80%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Composite/Composite.php.html#5">Gof\DesignPatterns\Structural\Composite\Composite</a></td><td class="text-right">3</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Composite/Component.php.html#15"><abbr title="Gof\DesignPatterns\Structural\Composite\Component::getComponent">getComponent</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Composite/Component.php.html#19"><abbr title="Gof\DesignPatterns\Structural\Composite\Component::removeComponent">removeComponent</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Composite/Component.php.html#23"><abbr title="Gof\DesignPatterns\Structural\Composite\Component::hasComponent">hasComponent</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Composite/Component.php.html#27"><abbr title="Gof\DesignPatterns\Structural\Composite\Component::isComposite">isComposite</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Composite/Composite.php.html#15"><abbr title="Gof\DesignPatterns\Structural\Composite\Composite::isComposite">isComposite</abbr></a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 10.1.11</a> using <a href="https://www.php.net/" target="_top">PHP 8.1.2-1ubuntu2.14</a> and <a href="https://phpunit.de/">PHPUnit 10.5.10</a> at Tue Mar 12 11:53:52 UTC 2024.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../_js/jquery.min.js?v=10.1.11" type="text/javascript"></script>
+  <script src="../_js/d3.min.js?v=10.1.11" type="text/javascript"></script>
+  <script src="../_js/nv.d3.min.js?v=10.1.11" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([0,0,0,1,0,0,0,0,0,1,0,30], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([5,0,0,0,0,0,0,0,0,0,0,47], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[100,1,"<a href=\"Adapter\/RunExample.php.html#7\">Gof\\DesignPatterns\\Structural\\Adapter\\RunExample<\/a>"],[100,1,"<a href=\"Adapter\/Shape.php.html#5\">Gof\\DesignPatterns\\Structural\\Adapter\\Shape<\/a>"],[100,2,"<a href=\"Adapter\/TextShape.php.html#5\">Gof\\DesignPatterns\\Structural\\Adapter\\TextShape<\/a>"],[100,1,"<a href=\"Adapter\/TextView.php.html#5\">Gof\\DesignPatterns\\Structural\\Adapter\\TextView<\/a>"],[100,2,"<a href=\"Bridge\/Abstraction.php.html#12\">Gof\\DesignPatterns\\Structural\\Bridge\\Abstraction<\/a>"],[100,1,"<a href=\"Bridge\/ConcreteImplementorA.php.html#12\">Gof\\DesignPatterns\\Structural\\Bridge\\ConcreteImplementorA<\/a>"],[100,1,"<a href=\"Bridge\/ConcreteImplementorB.php.html#12\">Gof\\DesignPatterns\\Structural\\Bridge\\ConcreteImplementorB<\/a>"],[100,1,"<a href=\"Bridge\/RefinedAbstraction.php.html#5\">Gof\\DesignPatterns\\Structural\\Bridge\\RefinedAbstraction<\/a>"],[100,1,"<a href=\"Bridge\/RunExample.php.html#7\">Gof\\DesignPatterns\\Structural\\Bridge\\RunExample<\/a>"],[20,5,"<a href=\"Composite\/Component.php.html#5\">Gof\\DesignPatterns\\Structural\\Composite\\Component<\/a>"],[80,3,"<a href=\"Composite\/Composite.php.html#5\">Gof\\DesignPatterns\\Structural\\Composite\\Composite<\/a>"],[100,1,"<a href=\"Composite\/Leaf.php.html#5\">Gof\\DesignPatterns\\Structural\\Composite\\Leaf<\/a>"],[100,1,"<a href=\"Composite\/RunExample.php.html#7\">Gof\\DesignPatterns\\Structural\\Composite\\RunExample<\/a>"],[100,2,"<a href=\"Decorator\/BorderDecorator.php.html#5\">Gof\\DesignPatterns\\Structural\\Decorator\\BorderDecorator<\/a>"],[100,2,"<a href=\"Decorator\/Decorator.php.html#5\">Gof\\DesignPatterns\\Structural\\Decorator\\Decorator<\/a>"],[100,1,"<a href=\"Decorator\/RunExample.php.html#7\">Gof\\DesignPatterns\\Structural\\Decorator\\RunExample<\/a>"],[100,2,"<a href=\"Decorator\/ScrollDecorator.php.html#5\">Gof\\DesignPatterns\\Structural\\Decorator\\ScrollDecorator<\/a>"],[100,1,"<a href=\"Decorator\/TextView.php.html#5\">Gof\\DesignPatterns\\Structural\\Decorator\\TextView<\/a>"],[100,0,"<a href=\"Decorator\/VisualComponent.php.html#5\">Gof\\DesignPatterns\\Structural\\Decorator\\VisualComponent<\/a>"],[100,1,"<a href=\"Facade\/Compiler.php.html#5\">Gof\\DesignPatterns\\Structural\\Facade\\Compiler<\/a>"],[100,1,"<a href=\"Facade\/Facade.php.html#5\">Gof\\DesignPatterns\\Structural\\Facade\\Facade<\/a>"],[100,1,"<a href=\"Facade\/Parser.php.html#5\">Gof\\DesignPatterns\\Structural\\Facade\\Parser<\/a>"],[100,1,"<a href=\"Facade\/RunExample.php.html#7\">Gof\\DesignPatterns\\Structural\\Facade\\RunExample<\/a>"],[100,1,"<a href=\"Facade\/Scaner.php.html#5\">Gof\\DesignPatterns\\Structural\\Facade\\Scaner<\/a>"],[100,7,"<a href=\"Flyweight\/Document.php.html#5\">Gof\\DesignPatterns\\Structural\\Flyweight\\Document<\/a>"],[100,2,"<a href=\"Flyweight\/Glyph.php.html#5\">Gof\\DesignPatterns\\Structural\\Flyweight\\Glyph<\/a>"],[100,3,"<a href=\"Flyweight\/GlyphFactory.php.html#5\">Gof\\DesignPatterns\\Structural\\Flyweight\\GlyphFactory<\/a>"],[100,1,"<a href=\"Flyweight\/RunExample.php.html#7\">Gof\\DesignPatterns\\Structural\\Flyweight\\RunExample<\/a>"],[100,2,"<a href=\"Flyweight\/Sentence.php.html#5\">Gof\\DesignPatterns\\Structural\\Flyweight\\Sentence<\/a>"],[100,1,"<a href=\"Proxy\/Image.php.html#7\">Gof\\DesignPatterns\\Structural\\Proxy\\Image<\/a>"],[100,3,"<a href=\"Proxy\/ImageProxy.php.html#7\">Gof\\DesignPatterns\\Structural\\Proxy\\ImageProxy<\/a>"],[100,1,"<a href=\"Proxy\/RunExample.php.html#7\">Gof\\DesignPatterns\\Structural\\Proxy\\RunExample<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[100,1,"<a href=\"Adapter\/RunExample.php.html#11\">Gof\\DesignPatterns\\Structural\\Adapter\\RunExample::run<\/a>"],[100,1,"<a href=\"Adapter\/Shape.php.html#7\">Gof\\DesignPatterns\\Structural\\Adapter\\Shape::request<\/a>"],[100,1,"<a href=\"Adapter\/TextShape.php.html#7\">Gof\\DesignPatterns\\Structural\\Adapter\\TextShape::__construct<\/a>"],[100,1,"<a href=\"Adapter\/TextShape.php.html#13\">Gof\\DesignPatterns\\Structural\\Adapter\\TextShape::request<\/a>"],[100,1,"<a href=\"Adapter\/TextView.php.html#6\">Gof\\DesignPatterns\\Structural\\Adapter\\TextView::specificRequest<\/a>"],[100,1,"<a href=\"Bridge\/Abstraction.php.html#16\">Gof\\DesignPatterns\\Structural\\Bridge\\Abstraction::__construct<\/a>"],[100,1,"<a href=\"Bridge\/Abstraction.php.html#20\">Gof\\DesignPatterns\\Structural\\Bridge\\Abstraction::callOperation<\/a>"],[100,1,"<a href=\"Bridge\/ConcreteImplementorA.php.html#14\">Gof\\DesignPatterns\\Structural\\Bridge\\ConcreteImplementorA::operation<\/a>"],[100,1,"<a href=\"Bridge\/ConcreteImplementorB.php.html#14\">Gof\\DesignPatterns\\Structural\\Bridge\\ConcreteImplementorB::operation<\/a>"],[100,1,"<a href=\"Bridge\/RefinedAbstraction.php.html#7\">Gof\\DesignPatterns\\Structural\\Bridge\\RefinedAbstraction::callOperation<\/a>"],[100,1,"<a href=\"Bridge\/RunExample.php.html#11\">Gof\\DesignPatterns\\Structural\\Bridge\\RunExample::run<\/a>"],[100,0,"<a href=\"Composite\/Component.php.html#9\">Gof\\DesignPatterns\\Structural\\Composite\\Component::operation<\/a>"],[100,1,"<a href=\"Composite\/Component.php.html#11\">Gof\\DesignPatterns\\Structural\\Composite\\Component::addComponent<\/a>"],[0,1,"<a href=\"Composite\/Component.php.html#15\">Gof\\DesignPatterns\\Structural\\Composite\\Component::getComponent<\/a>"],[0,1,"<a href=\"Composite\/Component.php.html#19\">Gof\\DesignPatterns\\Structural\\Composite\\Component::removeComponent<\/a>"],[0,1,"<a href=\"Composite\/Component.php.html#23\">Gof\\DesignPatterns\\Structural\\Composite\\Component::hasComponent<\/a>"],[0,1,"<a href=\"Composite\/Component.php.html#27\">Gof\\DesignPatterns\\Structural\\Composite\\Component::isComposite<\/a>"],[100,2,"<a href=\"Composite\/Composite.php.html#7\">Gof\\DesignPatterns\\Structural\\Composite\\Composite::operation<\/a>"],[0,1,"<a href=\"Composite\/Composite.php.html#15\">Gof\\DesignPatterns\\Structural\\Composite\\Composite::isComposite<\/a>"],[100,1,"<a href=\"Composite\/Leaf.php.html#7\">Gof\\DesignPatterns\\Structural\\Composite\\Leaf::operation<\/a>"],[100,1,"<a href=\"Composite\/RunExample.php.html#11\">Gof\\DesignPatterns\\Structural\\Composite\\RunExample::run<\/a>"],[100,1,"<a href=\"Decorator\/BorderDecorator.php.html#7\">Gof\\DesignPatterns\\Structural\\Decorator\\BorderDecorator::draw<\/a>"],[100,1,"<a href=\"Decorator\/BorderDecorator.php.html#11\">Gof\\DesignPatterns\\Structural\\Decorator\\BorderDecorator::drawBorder<\/a>"],[100,1,"<a href=\"Decorator\/Decorator.php.html#9\">Gof\\DesignPatterns\\Structural\\Decorator\\Decorator::__construct<\/a>"],[100,1,"<a href=\"Decorator\/Decorator.php.html#13\">Gof\\DesignPatterns\\Structural\\Decorator\\Decorator::draw<\/a>"],[100,1,"<a href=\"Decorator\/RunExample.php.html#11\">Gof\\DesignPatterns\\Structural\\Decorator\\RunExample::run<\/a>"],[100,1,"<a href=\"Decorator\/ScrollDecorator.php.html#7\">Gof\\DesignPatterns\\Structural\\Decorator\\ScrollDecorator::draw<\/a>"],[100,1,"<a href=\"Decorator\/ScrollDecorator.php.html#11\">Gof\\DesignPatterns\\Structural\\Decorator\\ScrollDecorator::scrollTo<\/a>"],[100,1,"<a href=\"Decorator\/TextView.php.html#7\">Gof\\DesignPatterns\\Structural\\Decorator\\TextView::draw<\/a>"],[100,0,"<a href=\"Decorator\/VisualComponent.php.html#7\">Gof\\DesignPatterns\\Structural\\Decorator\\VisualComponent::draw<\/a>"],[100,1,"<a href=\"Facade\/Compiler.php.html#6\">Gof\\DesignPatterns\\Structural\\Facade\\Compiler::compiling<\/a>"],[100,1,"<a href=\"Facade\/Facade.php.html#7\">Gof\\DesignPatterns\\Structural\\Facade\\Facade::doProcess<\/a>"],[100,1,"<a href=\"Facade\/Parser.php.html#6\">Gof\\DesignPatterns\\Structural\\Facade\\Parser::parsing<\/a>"],[100,1,"<a href=\"Facade\/RunExample.php.html#11\">Gof\\DesignPatterns\\Structural\\Facade\\RunExample::run<\/a>"],[100,1,"<a href=\"Facade\/Scaner.php.html#6\">Gof\\DesignPatterns\\Structural\\Facade\\Scaner::scanning<\/a>"],[100,1,"<a href=\"Flyweight\/Document.php.html#7\">Gof\\DesignPatterns\\Structural\\Flyweight\\Document::__construct<\/a>"],[100,2,"<a href=\"Flyweight\/Document.php.html#15\">Gof\\DesignPatterns\\Structural\\Flyweight\\Document::write<\/a>"],[100,2,"<a href=\"Flyweight\/Document.php.html#26\">Gof\\DesignPatterns\\Structural\\Flyweight\\Document::export<\/a>"],[100,1,"<a href=\"Flyweight\/Document.php.html#35\">Gof\\DesignPatterns\\Structural\\Flyweight\\Document::glyphsProduced<\/a>"],[100,1,"<a href=\"Flyweight\/Document.php.html#39\">Gof\\DesignPatterns\\Structural\\Flyweight\\Document::symbolsUsed<\/a>"],[100,1,"<a href=\"Flyweight\/Glyph.php.html#7\">Gof\\DesignPatterns\\Structural\\Flyweight\\Glyph::__construct<\/a>"],[100,1,"<a href=\"Flyweight\/Glyph.php.html#13\">Gof\\DesignPatterns\\Structural\\Flyweight\\Glyph::__toString<\/a>"],[100,2,"<a href=\"Flyweight\/GlyphFactory.php.html#9\">Gof\\DesignPatterns\\Structural\\Flyweight\\GlyphFactory::fetchGlyph<\/a>"],[100,1,"<a href=\"Flyweight\/GlyphFactory.php.html#18\">Gof\\DesignPatterns\\Structural\\Flyweight\\GlyphFactory::glyphsProduced<\/a>"],[100,1,"<a href=\"Flyweight\/RunExample.php.html#11\">Gof\\DesignPatterns\\Structural\\Flyweight\\RunExample::run<\/a>"],[100,1,"<a href=\"Flyweight\/Sentence.php.html#8\">Gof\\DesignPatterns\\Structural\\Flyweight\\Sentence::addGlyph<\/a>"],[100,1,"<a href=\"Flyweight\/Sentence.php.html#12\">Gof\\DesignPatterns\\Structural\\Flyweight\\Sentence::__toString<\/a>"],[100,1,"<a href=\"Proxy\/Image.php.html#9\">Gof\\DesignPatterns\\Structural\\Proxy\\Image::request<\/a>"],[100,1,"<a href=\"Proxy\/ImageProxy.php.html#9\">Gof\\DesignPatterns\\Structural\\Proxy\\ImageProxy::__construct<\/a>"],[100,1,"<a href=\"Proxy\/ImageProxy.php.html#15\">Gof\\DesignPatterns\\Structural\\Proxy\\ImageProxy::request<\/a>"],[100,1,"<a href=\"Proxy\/ImageProxy.php.html#21\">Gof\\DesignPatterns\\Structural\\Proxy\\ImageProxy::someAction<\/a>"],[100,1,"<a href=\"Proxy\/RunExample.php.html#11\">Gof\\DesignPatterns\\Structural\\Proxy\\RunExample::run<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

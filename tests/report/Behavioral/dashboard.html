@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /var/www/gof-design-patterns-php/src/Behavioral</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../_css/bootstrap.min.css?v=10.1.11" rel="stylesheet" type="text/css">
+  <link href="../_css/nv.d3.min.css?v=10.1.11" rel="stylesheet" type="text/css">
+  <link href="../_css/style.css?v=10.1.11" rel="stylesheet" type="text/css">
+  <link href="../_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="../index.html">/var/www/gof-design-patterns-php/src</a></li>
+         <li class="breadcrumb-item"><a href="index.html">Behavioral</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="State/SolidState.php.html#7">Gof\DesignPatterns\Behavioral\State\SolidState</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChainOfResponsibility/PrintButton.php.html#5">Gof\DesignPatterns\Behavioral\ChainOfResponsibility\PrintButton</a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="ChainOfResponsibility/PrintDialog.php.html#5">Gof\DesignPatterns\Behavioral\ChainOfResponsibility\PrintDialog</a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="State/GasState.php.html#7">Gof\DesignPatterns\Behavioral\State\GasState</a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="State/Water.php.html#7">Gof\DesignPatterns\Behavioral\State\Water</a></td><td class="text-right">80%</td></tr>
+       <tr><td><a href="Iterator/ListIterator.php.html#11">Gof\DesignPatterns\Behavioral\Iterator\ListIterator</a></td><td class="text-right">85%</td></tr>
+       <tr><td><a href="Observer/Subject.php.html#11">Gof\DesignPatterns\Behavioral\Observer\Subject</a></td><td class="text-right">85%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Iterator/ListIterator.php.html#11">Gof\DesignPatterns\Behavioral\Iterator\ListIterator</a></td><td class="text-right">8</td></tr>
+       <tr><td><a href="Observer/Subject.php.html#11">Gof\DesignPatterns\Behavioral\Observer\Subject</a></td><td class="text-right">7</td></tr>
+       <tr><td><a href="ChainOfResponsibility/PrintButton.php.html#5">Gof\DesignPatterns\Behavioral\ChainOfResponsibility\PrintButton</a></td><td class="text-right">4</td></tr>
+       <tr><td><a href="ChainOfResponsibility/PrintDialog.php.html#5">Gof\DesignPatterns\Behavioral\ChainOfResponsibility\PrintDialog</a></td><td class="text-right">4</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Iterator/ListIterator.php.html#30"><abbr title="Gof\DesignPatterns\Behavioral\Iterator\ListIterator::key">key</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Observer/Subject.php.html#24"><abbr title="Gof\DesignPatterns\Behavioral\Observer\Subject::detach">detach</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="State/GasState.php.html#14"><abbr title="Gof\DesignPatterns\Behavioral\State\GasState::heat">heat</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="State/SolidState.php.html#9"><abbr title="Gof\DesignPatterns\Behavioral\State\SolidState::frost">frost</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="State/SolidState.php.html#13"><abbr title="Gof\DesignPatterns\Behavioral\State\SolidState::heat">heat</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="State/Water.php.html#23"><abbr title="Gof\DesignPatterns\Behavioral\State\Water::getState">getState</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ChainOfResponsibility/PrintButton.php.html#7"><abbr title="Gof\DesignPatterns\Behavioral\ChainOfResponsibility\PrintButton::handleRequest">handleRequest</abbr></a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="ChainOfResponsibility/PrintDialog.php.html#7"><abbr title="Gof\DesignPatterns\Behavioral\ChainOfResponsibility\PrintDialog::handleRequest">handleRequest</abbr></a></td><td class="text-right">50%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="ChainOfResponsibility/PrintButton.php.html#7"><abbr title="Gof\DesignPatterns\Behavioral\ChainOfResponsibility\PrintButton::handleRequest">handleRequest</abbr></a></td><td class="text-right">4</td></tr>
+       <tr><td><a href="ChainOfResponsibility/PrintDialog.php.html#7"><abbr title="Gof\DesignPatterns\Behavioral\ChainOfResponsibility\PrintDialog::handleRequest">handleRequest</abbr></a></td><td class="text-right">4</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 10.1.11</a> using <a href="https://www.php.net/" target="_top">PHP 8.1.2-1ubuntu2.14</a> and <a href="https://phpunit.de/">PHPUnit 10.5.10</a> at Tue Mar 12 11:53:52 UTC 2024.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../_js/jquery.min.js?v=10.1.11" type="text/javascript"></script>
+  <script src="../_js/d3.min.js?v=10.1.11" type="text/javascript"></script>
+  <script src="../_js/nv.d3.min.js?v=10.1.11" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([1,0,0,0,0,0,2,1,0,3,0,44], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([6,0,0,0,0,0,2,0,0,0,0,86], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[100,1,"<a href=\"ChainOfResponsibility\/AbstractHandler.php.html#7\">Gof\\DesignPatterns\\Behavioral\\ChainOfResponsibility\\AbstractHandler<\/a>"],[100,3,"<a href=\"ChainOfResponsibility\/HelpHandler.php.html#5\">Gof\\DesignPatterns\\Behavioral\\ChainOfResponsibility\\HelpHandler<\/a>"],[50,3,"<a href=\"ChainOfResponsibility\/PrintButton.php.html#5\">Gof\\DesignPatterns\\Behavioral\\ChainOfResponsibility\\PrintButton<\/a>"],[50,3,"<a href=\"ChainOfResponsibility\/PrintDialog.php.html#5\">Gof\\DesignPatterns\\Behavioral\\ChainOfResponsibility\\PrintDialog<\/a>"],[100,1,"<a href=\"ChainOfResponsibility\/RunExample.php.html#7\">Gof\\DesignPatterns\\Behavioral\\ChainOfResponsibility\\RunExample<\/a>"],[100,2,"<a href=\"Command\/Document.php.html#7\">Gof\\DesignPatterns\\Behavioral\\Command\\Document<\/a>"],[100,2,"<a href=\"Command\/OpenCommand.php.html#7\">Gof\\DesignPatterns\\Behavioral\\Command\\OpenCommand<\/a>"],[100,1,"<a href=\"Command\/RunExample.php.html#7\">Gof\\DesignPatterns\\Behavioral\\Command\\RunExample<\/a>"],[100,1,"<a href=\"Interpreter\/AddExpression.php.html#7\">Gof\\DesignPatterns\\Behavioral\\Interpreter\\AddExpression<\/a>"],[100,1,"<a href=\"Interpreter\/ArithmeticExpression.php.html#7\">Gof\\DesignPatterns\\Behavioral\\Interpreter\\ArithmeticExpression<\/a>"],[100,2,"<a href=\"Interpreter\/Context.php.html#5\">Gof\\DesignPatterns\\Behavioral\\Interpreter\\Context<\/a>"],[100,2,"<a href=\"Interpreter\/NumberExpression.php.html#7\">Gof\\DesignPatterns\\Behavioral\\Interpreter\\NumberExpression<\/a>"],[100,1,"<a href=\"Interpreter\/RunExample.php.html#7\">Gof\\DesignPatterns\\Behavioral\\Interpreter\\RunExample<\/a>"],[100,1,"<a href=\"Interpreter\/SubtractExpression.php.html#7\">Gof\\DesignPatterns\\Behavioral\\Interpreter\\SubtractExpression<\/a>"],[100,4,"<a href=\"Iterator\/ListAggregator.php.html#11\">Gof\\DesignPatterns\\Behavioral\\Iterator\\ListAggregator<\/a>"],[100,0,"<a href=\"Iterator\/ListDescIterator.php.html#5\">Gof\\DesignPatterns\\Behavioral\\Iterator\\ListDescIterator<\/a>"],[85.71428571428571,8,"<a href=\"Iterator\/ListIterator.php.html#11\">Gof\\DesignPatterns\\Behavioral\\Iterator\\ListIterator<\/a>"],[100,3,"<a href=\"Iterator\/RunExample.php.html#7\">Gof\\DesignPatterns\\Behavioral\\Iterator\\RunExample<\/a>"],[100,3,"<a href=\"Mediator\/Colleague.php.html#5\">Gof\\DesignPatterns\\Behavioral\\Mediator\\Colleague<\/a>"],[100,1,"<a href=\"Mediator\/JuniorDevColleague.php.html#5\">Gof\\DesignPatterns\\Behavioral\\Mediator\\JuniorDevColleague<\/a>"],[100,4,"<a href=\"Mediator\/ManagerMediator.php.html#5\">Gof\\DesignPatterns\\Behavioral\\Mediator\\ManagerMediator<\/a>"],[100,0,"<a href=\"Mediator\/Mediator.php.html#5\">Gof\\DesignPatterns\\Behavioral\\Mediator\\Mediator<\/a>"],[100,1,"<a href=\"Mediator\/RunExample.php.html#7\">Gof\\DesignPatterns\\Behavioral\\Mediator\\RunExample<\/a>"],[100,1,"<a href=\"Mediator\/SeniorDevColleague.php.html#5\">Gof\\DesignPatterns\\Behavioral\\Mediator\\SeniorDevColleague<\/a>"],[100,2,"<a href=\"Memento\/CareTaker.php.html#5\">Gof\\DesignPatterns\\Behavioral\\Memento\\CareTaker<\/a>"],[100,2,"<a href=\"Memento\/Memento.php.html#5\">Gof\\DesignPatterns\\Behavioral\\Memento\\Memento<\/a>"],[100,5,"<a href=\"Memento\/Originator.php.html#5\">Gof\\DesignPatterns\\Behavioral\\Memento\\Originator<\/a>"],[100,1,"<a href=\"Memento\/RunExample.php.html#7\">Gof\\DesignPatterns\\Behavioral\\Memento\\RunExample<\/a>"],[100,3,"<a href=\"Observer\/Observer.php.html#11\">Gof\\DesignPatterns\\Behavioral\\Observer\\Observer<\/a>"],[100,1,"<a href=\"Observer\/RunExample.php.html#7\">Gof\\DesignPatterns\\Behavioral\\Observer\\RunExample<\/a>"],[85.71428571428571,7,"<a href=\"Observer\/Subject.php.html#11\">Gof\\DesignPatterns\\Behavioral\\Observer\\Subject<\/a>"],[66.66666666666666,2,"<a href=\"State\/GasState.php.html#7\">Gof\\DesignPatterns\\Behavioral\\State\\GasState<\/a>"],[100,2,"<a href=\"State\/LiquidState.php.html#7\">Gof\\DesignPatterns\\Behavioral\\State\\LiquidState<\/a>"],[100,1,"<a href=\"State\/RunExample.php.html#7\">Gof\\DesignPatterns\\Behavioral\\State\\RunExample<\/a>"],[0,2,"<a href=\"State\/SolidState.php.html#7\">Gof\\DesignPatterns\\Behavioral\\State\\SolidState<\/a>"],[80,5,"<a href=\"State\/Water.php.html#7\">Gof\\DesignPatterns\\Behavioral\\State\\Water<\/a>"],[100,3,"<a href=\"Strategy\/Context.php.html#7\">Gof\\DesignPatterns\\Behavioral\\Strategy\\Context<\/a>"],[100,1,"<a href=\"Strategy\/RunExample.php.html#13\">Gof\\DesignPatterns\\Behavioral\\Strategy\\RunExample<\/a>"],[100,1,"<a href=\"Strategy\/StrategyA.php.html#7\">Gof\\DesignPatterns\\Behavioral\\Strategy\\StrategyA<\/a>"],[100,1,"<a href=\"Strategy\/StrategyB.php.html#7\">Gof\\DesignPatterns\\Behavioral\\Strategy\\StrategyB<\/a>"],[100,1,"<a href=\"TemplateMethod\/AbstractClass.php.html#5\">Gof\\DesignPatterns\\Behavioral\\TemplateMethod\\AbstractClass<\/a>"],[100,1,"<a href=\"TemplateMethod\/ConcreteClass.php.html#5\">Gof\\DesignPatterns\\Behavioral\\TemplateMethod\\ConcreteClass<\/a>"],[100,1,"<a href=\"TemplateMethod\/RunExample.php.html#8\">Gof\\DesignPatterns\\Behavioral\\TemplateMethod\\RunExample<\/a>"],[100,0,"<a href=\"Visitor\/AbstractElement.php.html#5\">Gof\\DesignPatterns\\Behavioral\\Visitor\\AbstractElement<\/a>"],[100,0,"<a href=\"Visitor\/AbstractVisitor.php.html#5\">Gof\\DesignPatterns\\Behavioral\\Visitor\\AbstractVisitor<\/a>"],[100,2,"<a href=\"Visitor\/ConcreteElementA.php.html#5\">Gof\\DesignPatterns\\Behavioral\\Visitor\\ConcreteElementA<\/a>"],[100,2,"<a href=\"Visitor\/ConcreteElementB.php.html#5\">Gof\\DesignPatterns\\Behavioral\\Visitor\\ConcreteElementB<\/a>"],[100,2,"<a href=\"Visitor\/ConcreteVisitor1.php.html#5\">Gof\\DesignPatterns\\Behavioral\\Visitor\\ConcreteVisitor1<\/a>"],[100,2,"<a href=\"Visitor\/ConcreteVisitor2.php.html#5\">Gof\\DesignPatterns\\Behavioral\\Visitor\\ConcreteVisitor2<\/a>"],[100,3,"<a href=\"Visitor\/ObjectStructure.php.html#5\">Gof\\DesignPatterns\\Behavioral\\Visitor\\ObjectStructure<\/a>"],[100,1,"<a href=\"Visitor\/RunExample.php.html#7\">Gof\\DesignPatterns\\Behavioral\\Visitor\\RunExample<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[100,1,"<a href=\"ChainOfResponsibility\/AbstractHandler.php.html#11\">Gof\\DesignPatterns\\Behavioral\\ChainOfResponsibility\\AbstractHandler::setNext<\/a>"],[100,0,"<a href=\"ChainOfResponsibility\/AbstractHandler.php.html#17\">Gof\\DesignPatterns\\Behavioral\\ChainOfResponsibility\\AbstractHandler::handleRequest<\/a>"],[100,3,"<a href=\"ChainOfResponsibility\/HelpHandler.php.html#7\">Gof\\DesignPatterns\\Behavioral\\ChainOfResponsibility\\HelpHandler::handleRequest<\/a>"],[50,3,"<a href=\"ChainOfResponsibility\/PrintButton.php.html#7\">Gof\\DesignPatterns\\Behavioral\\ChainOfResponsibility\\PrintButton::handleRequest<\/a>"],[50,3,"<a href=\"ChainOfResponsibility\/PrintDialog.php.html#7\">Gof\\DesignPatterns\\Behavioral\\ChainOfResponsibility\\PrintDialog::handleRequest<\/a>"],[100,1,"<a href=\"ChainOfResponsibility\/RunExample.php.html#11\">Gof\\DesignPatterns\\Behavioral\\ChainOfResponsibility\\RunExample::run<\/a>"],[100,2,"<a href=\"Command\/Document.php.html#11\">Gof\\DesignPatterns\\Behavioral\\Command\\Document::makeAction<\/a>"],[100,1,"<a href=\"Command\/OpenCommand.php.html#9\">Gof\\DesignPatterns\\Behavioral\\Command\\OpenCommand::__construct<\/a>"],[100,1,"<a href=\"Command\/OpenCommand.php.html#15\">Gof\\DesignPatterns\\Behavioral\\Command\\OpenCommand::execute<\/a>"],[100,1,"<a href=\"Command\/RunExample.php.html#11\">Gof\\DesignPatterns\\Behavioral\\Command\\RunExample::run<\/a>"],[100,1,"<a href=\"Interpreter\/AddExpression.php.html#9\">Gof\\DesignPatterns\\Behavioral\\Interpreter\\AddExpression::interpret<\/a>"],[100,1,"<a href=\"Interpreter\/ArithmeticExpression.php.html#8\">Gof\\DesignPatterns\\Behavioral\\Interpreter\\ArithmeticExpression::__construct<\/a>"],[100,1,"<a href=\"Interpreter\/Context.php.html#9\">Gof\\DesignPatterns\\Behavioral\\Interpreter\\Context::setVariable<\/a>"],[100,1,"<a href=\"Interpreter\/Context.php.html#13\">Gof\\DesignPatterns\\Behavioral\\Interpreter\\Context::getVariable<\/a>"],[100,1,"<a href=\"Interpreter\/NumberExpression.php.html#9\">Gof\\DesignPatterns\\Behavioral\\Interpreter\\NumberExpression::__construct<\/a>"],[100,1,"<a href=\"Interpreter\/NumberExpression.php.html#15\">Gof\\DesignPatterns\\Behavioral\\Interpreter\\NumberExpression::interpret<\/a>"],[100,1,"<a href=\"Interpreter\/RunExample.php.html#11\">Gof\\DesignPatterns\\Behavioral\\Interpreter\\RunExample::run<\/a>"],[100,1,"<a href=\"Interpreter\/SubtractExpression.php.html#9\">Gof\\DesignPatterns\\Behavioral\\Interpreter\\SubtractExpression::interpret<\/a>"],[100,1,"<a href=\"Iterator\/ListAggregator.php.html#15\">Gof\\DesignPatterns\\Behavioral\\Iterator\\ListAggregator::getItems<\/a>"],[100,1,"<a href=\"Iterator\/ListAggregator.php.html#19\">Gof\\DesignPatterns\\Behavioral\\Iterator\\ListAggregator::addItem<\/a>"],[100,1,"<a href=\"Iterator\/ListAggregator.php.html#23\">Gof\\DesignPatterns\\Behavioral\\Iterator\\ListAggregator::getIterator<\/a>"],[100,1,"<a href=\"Iterator\/ListAggregator.php.html#27\">Gof\\DesignPatterns\\Behavioral\\Iterator\\ListAggregator::getReverseIterator<\/a>"],[100,1,"<a href=\"Iterator\/ListIterator.php.html#17\">Gof\\DesignPatterns\\Behavioral\\Iterator\\ListIterator::__construct<\/a>"],[100,2,"<a href=\"Iterator\/ListIterator.php.html#21\">Gof\\DesignPatterns\\Behavioral\\Iterator\\ListIterator::rewind<\/a>"],[100,1,"<a href=\"Iterator\/ListIterator.php.html#26\">Gof\\DesignPatterns\\Behavioral\\Iterator\\ListIterator::current<\/a>"],[0,1,"<a href=\"Iterator\/ListIterator.php.html#30\">Gof\\DesignPatterns\\Behavioral\\Iterator\\ListIterator::key<\/a>"],[100,2,"<a href=\"Iterator\/ListIterator.php.html#34\">Gof\\DesignPatterns\\Behavioral\\Iterator\\ListIterator::next<\/a>"],[100,1,"<a href=\"Iterator\/ListIterator.php.html#38\">Gof\\DesignPatterns\\Behavioral\\Iterator\\ListIterator::valid<\/a>"],[100,3,"<a href=\"Iterator\/RunExample.php.html#11\">Gof\\DesignPatterns\\Behavioral\\Iterator\\RunExample::run<\/a>"],[100,1,"<a href=\"Mediator\/Colleague.php.html#7\">Gof\\DesignPatterns\\Behavioral\\Mediator\\Colleague::__construct<\/a>"],[100,1,"<a href=\"Mediator\/Colleague.php.html#13\">Gof\\DesignPatterns\\Behavioral\\Mediator\\Colleague::setMediator<\/a>"],[100,1,"<a href=\"Mediator\/Colleague.php.html#17\">Gof\\DesignPatterns\\Behavioral\\Mediator\\Colleague::send<\/a>"],[100,0,"<a href=\"Mediator\/Colleague.php.html#21\">Gof\\DesignPatterns\\Behavioral\\Mediator\\Colleague::notify<\/a>"],[100,1,"<a href=\"Mediator\/JuniorDevColleague.php.html#7\">Gof\\DesignPatterns\\Behavioral\\Mediator\\JuniorDevColleague::notify<\/a>"],[100,1,"<a href=\"Mediator\/ManagerMediator.php.html#7\">Gof\\DesignPatterns\\Behavioral\\Mediator\\ManagerMediator::__construct<\/a>"],[100,3,"<a href=\"Mediator\/ManagerMediator.php.html#15\">Gof\\DesignPatterns\\Behavioral\\Mediator\\ManagerMediator::send<\/a>"],[100,0,"<a href=\"Mediator\/Mediator.php.html#6\">Gof\\DesignPatterns\\Behavioral\\Mediator\\Mediator::send<\/a>"],[100,1,"<a href=\"Mediator\/RunExample.php.html#11\">Gof\\DesignPatterns\\Behavioral\\Mediator\\RunExample::run<\/a>"],[100,1,"<a href=\"Mediator\/SeniorDevColleague.php.html#7\">Gof\\DesignPatterns\\Behavioral\\Mediator\\SeniorDevColleague::notify<\/a>"],[100,1,"<a href=\"Memento\/CareTaker.php.html#9\">Gof\\DesignPatterns\\Behavioral\\Memento\\CareTaker::setMemento<\/a>"],[100,1,"<a href=\"Memento\/CareTaker.php.html#13\">Gof\\DesignPatterns\\Behavioral\\Memento\\CareTaker::getMemento<\/a>"],[100,1,"<a href=\"Memento\/Memento.php.html#7\">Gof\\DesignPatterns\\Behavioral\\Memento\\Memento::__construct<\/a>"],[100,1,"<a href=\"Memento\/Memento.php.html#13\">Gof\\DesignPatterns\\Behavioral\\Memento\\Memento::getState<\/a>"],[100,1,"<a href=\"Memento\/Originator.php.html#7\">Gof\\DesignPatterns\\Behavioral\\Memento\\Originator::__construct<\/a>"],[100,1,"<a href=\"Memento\/Originator.php.html#13\">Gof\\DesignPatterns\\Behavioral\\Memento\\Originator::setState<\/a>"],[100,1,"<a href=\"Memento\/Originator.php.html#17\">Gof\\DesignPatterns\\Behavioral\\Memento\\Originator::getState<\/a>"],[100,1,"<a href=\"Memento\/Originator.php.html#21\">Gof\\DesignPatterns\\Behavioral\\Memento\\Originator::saveToMemento<\/a>"],[100,1,"<a href=\"Memento\/Originator.php.html#25\">Gof\\DesignPatterns\\Behavioral\\Memento\\Originator::restoreFromMemento<\/a>"],[100,1,"<a href=\"Memento\/RunExample.php.html#11\">Gof\\DesignPatterns\\Behavioral\\Memento\\RunExample::run<\/a>"],[100,2,"<a href=\"Observer\/Observer.php.html#15\">Gof\\DesignPatterns\\Behavioral\\Observer\\Observer::update<\/a>"],[100,1,"<a href=\"Observer\/Observer.php.html#21\">Gof\\DesignPatterns\\Behavioral\\Observer\\Observer::getNewState<\/a>"],[100,1,"<a href=\"Observer\/RunExample.php.html#11\">Gof\\DesignPatterns\\Behavioral\\Observer\\RunExample::run<\/a>"],[100,1,"<a href=\"Observer\/Subject.php.html#16\">Gof\\DesignPatterns\\Behavioral\\Observer\\Subject::__construct<\/a>"],[100,1,"<a href=\"Observer\/Subject.php.html#20\">Gof\\DesignPatterns\\Behavioral\\Observer\\Subject::attach<\/a>"],[0,1,"<a href=\"Observer\/Subject.php.html#24\">Gof\\DesignPatterns\\Behavioral\\Observer\\Subject::detach<\/a>"],[100,2,"<a href=\"Observer\/Subject.php.html#28\">Gof\\DesignPatterns\\Behavioral\\Observer\\Subject::notify<\/a>"],[100,1,"<a href=\"Observer\/Subject.php.html#34\">Gof\\DesignPatterns\\Behavioral\\Observer\\Subject::publish<\/a>"],[100,1,"<a href=\"Observer\/Subject.php.html#38\">Gof\\DesignPatterns\\Behavioral\\Observer\\Subject::getState<\/a>"],[100,1,"<a href=\"State\/GasState.php.html#9\">Gof\\DesignPatterns\\Behavioral\\State\\GasState::frost<\/a>"],[0,1,"<a href=\"State\/GasState.php.html#14\">Gof\\DesignPatterns\\Behavioral\\State\\GasState::heat<\/a>"],[100,1,"<a href=\"State\/LiquidState.php.html#9\">Gof\\DesignPatterns\\Behavioral\\State\\LiquidState::frost<\/a>"],[100,1,"<a href=\"State\/LiquidState.php.html#14\">Gof\\DesignPatterns\\Behavioral\\State\\LiquidState::heat<\/a>"],[100,1,"<a href=\"State\/RunExample.php.html#11\">Gof\\DesignPatterns\\Behavioral\\State\\RunExample::run<\/a>"],[0,1,"<a href=\"State\/SolidState.php.html#9\">Gof\\DesignPatterns\\Behavioral\\State\\SolidState::frost<\/a>"],[0,1,"<a href=\"State\/SolidState.php.html#13\">Gof\\DesignPatterns\\Behavioral\\State\\SolidState::heat<\/a>"],[100,1,"<a href=\"State\/Water.php.html#9\">Gof\\DesignPatterns\\Behavioral\\State\\Water::__construct<\/a>"],[100,1,"<a href=\"State\/Water.php.html#15\">Gof\\DesignPatterns\\Behavioral\\State\\Water::heat<\/a>"],[100,1,"<a href=\"State\/Water.php.html#19\">Gof\\DesignPatterns\\Behavioral\\State\\Water::frost<\/a>"],[0,1,"<a href=\"State\/Water.php.html#23\">Gof\\DesignPatterns\\Behavioral\\State\\Water::getState<\/a>"],[100,1,"<a href=\"State\/Water.php.html#27\">Gof\\DesignPatterns\\Behavioral\\State\\Water::setState<\/a>"],[100,1,"<a href=\"Strategy\/Context.php.html#11\">Gof\\DesignPatterns\\Behavioral\\Strategy\\Context::__construct<\/a>"],[100,1,"<a href=\"Strategy\/Context.php.html#15\">Gof\\DesignPatterns\\Behavioral\\Strategy\\Context::setStrategy<\/a>"],[100,1,"<a href=\"Strategy\/Context.php.html#19\">Gof\\DesignPatterns\\Behavioral\\Strategy\\Context::doContext<\/a>"],[100,1,"<a href=\"Strategy\/RunExample.php.html#17\">Gof\\DesignPatterns\\Behavioral\\Strategy\\RunExample::run<\/a>"],[100,1,"<a href=\"Strategy\/StrategyA.php.html#9\">Gof\\DesignPatterns\\Behavioral\\Strategy\\StrategyA::algorithm<\/a>"],[100,1,"<a href=\"Strategy\/StrategyB.php.html#9\">Gof\\DesignPatterns\\Behavioral\\Strategy\\StrategyB::algorithm<\/a>"],[100,1,"<a href=\"TemplateMethod\/AbstractClass.php.html#7\">Gof\\DesignPatterns\\Behavioral\\TemplateMethod\\AbstractClass::templateMethod<\/a>"],[100,0,"<a href=\"TemplateMethod\/AbstractClass.php.html#11\">Gof\\DesignPatterns\\Behavioral\\TemplateMethod\\AbstractClass::abstractMethod<\/a>"],[100,1,"<a href=\"TemplateMethod\/ConcreteClass.php.html#7\">Gof\\DesignPatterns\\Behavioral\\TemplateMethod\\ConcreteClass::abstractMethod<\/a>"],[100,1,"<a href=\"TemplateMethod\/RunExample.php.html#12\">Gof\\DesignPatterns\\Behavioral\\TemplateMethod\\RunExample::run<\/a>"],[100,0,"<a href=\"Visitor\/AbstractElement.php.html#7\">Gof\\DesignPatterns\\Behavioral\\Visitor\\AbstractElement::accept<\/a>"],[100,0,"<a href=\"Visitor\/AbstractVisitor.php.html#7\">Gof\\DesignPatterns\\Behavioral\\Visitor\\AbstractVisitor::visitConcreteElementA<\/a>"],[100,0,"<a href=\"Visitor\/AbstractVisitor.php.html#9\">Gof\\DesignPatterns\\Behavioral\\Visitor\\AbstractVisitor::visitConcreteElementB<\/a>"],[100,1,"<a href=\"Visitor\/ConcreteElementA.php.html#7\">Gof\\DesignPatterns\\Behavioral\\Visitor\\ConcreteElementA::accept<\/a>"],[100,1,"<a href=\"Visitor\/ConcreteElementA.php.html#11\">Gof\\DesignPatterns\\Behavioral\\Visitor\\ConcreteElementA::operationA<\/a>"],[100,1,"<a href=\"Visitor\/ConcreteElementB.php.html#7\">Gof\\DesignPatterns\\Behavioral\\Visitor\\ConcreteElementB::accept<\/a>"],[100,1,"<a href=\"Visitor\/ConcreteElementB.php.html#11\">Gof\\DesignPatterns\\Behavioral\\Visitor\\ConcreteElementB::operationB<\/a>"],[100,1,"<a href=\"Visitor\/ConcreteVisitor1.php.html#7\">Gof\\DesignPatterns\\Behavioral\\Visitor\\ConcreteVisitor1::visitConcreteElementA<\/a>"],[100,1,"<a href=\"Visitor\/ConcreteVisitor1.php.html#11\">Gof\\DesignPatterns\\Behavioral\\Visitor\\ConcreteVisitor1::visitConcreteElementB<\/a>"],[100,1,"<a href=\"Visitor\/ConcreteVisitor2.php.html#7\">Gof\\DesignPatterns\\Behavioral\\Visitor\\ConcreteVisitor2::visitConcreteElementA<\/a>"],[100,1,"<a href=\"Visitor\/ConcreteVisitor2.php.html#11\">Gof\\DesignPatterns\\Behavioral\\Visitor\\ConcreteVisitor2::visitConcreteElementB<\/a>"],[100,1,"<a href=\"Visitor\/ObjectStructure.php.html#9\">Gof\\DesignPatterns\\Behavioral\\Visitor\\ObjectStructure::add<\/a>"],[100,2,"<a href=\"Visitor\/ObjectStructure.php.html#13\">Gof\\DesignPatterns\\Behavioral\\Visitor\\ObjectStructure::accept<\/a>"],[100,1,"<a href=\"Visitor\/RunExample.php.html#11\">Gof\\DesignPatterns\\Behavioral\\Visitor\\RunExample::run<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>
