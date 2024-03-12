@@ -37,3 +37,6 @@ jobs:
 
     - name: Run test suite
       run: composer run-script test
+      
+    - name: Run test command
+      run: php index.php --type=structural --pattern=bridge
