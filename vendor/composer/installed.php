@@ -1,22 +1,22 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => NULL,
+        'reference' => 'c9d3cea2324a3b824116aa443d7dfd3a7d395a7a',
         'name' => 'gof/design-patterns',
         'dev' => true,
     ),
     'versions' => array(
         'gof/design-patterns' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => NULL,
+            'reference' => 'c9d3cea2324a3b824116aa443d7dfd3a7d395a7a',
             'dev_requirement' => false,
         ),
         'myclabs/deep-copy' => array(
