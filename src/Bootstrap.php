@@ -59,7 +59,7 @@ class Bootstrap {
         $result = '--pattern [--pattern=bridge] pattern name, possible values:' . PHP_EOL;
         $result .= $offset . 'abstractFactory, factoryMethod, builder, prototype, singleton' . PHP_EOL;
         $result .= $offset . 'adapter, bridge, composite, decorator, flyweight, proxy, facade' . PHP_EOL;
-        $result .= $offset . 'chainOfResponsibility, command, interpreter, iterator, mediator' . PHP_EOL . PHP_EOL;
+        $result .= $offset . 'chainOfResponsibility, command, interpreter, iterator, mediator, memento, observer, state, strategy, templateMethod, visitor' . PHP_EOL . PHP_EOL;
         $result .= 'Example: php index.php --type=behavioral --pattern=mediator' . PHP_EOL;
         return $result;
     }
