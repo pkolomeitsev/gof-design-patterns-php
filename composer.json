@@ -1,0 +1,25 @@
+{
+    "name": "gof/design-patterns",
+    "type": "library",
+    "license": "Free, open source",
+    "autoload": {
+        "psr-4": {
+            "Gof\\DesignPatterns\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/src"
+        }
+    },
+    "authors": [
+        {
+            "name": "Pavel",
+            "email": "p.kolomeitsev@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require-dev": {
+        "phpunit/phpunit": "^10.5"
+    }
+}
